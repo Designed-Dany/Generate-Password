@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(../svg/bgc.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    margin: 300px 0px 64px 0px;
+}
+
+.send-input {
+    width: 748px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #000000;
+    border-radius: 26px;
+    padding: 11px 0px 14px 24px;
+}
+
+.difficulty-lvl {
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.plus {
+    cursor: pointer;
+    border: 0;
+    background: none;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.line-lvl {
+    margin: 15px 23px 11px 23px;
+    display: flex;
+    width: 685px;
+    border-bottom: 7px solid #000000;
+}
+
+.minus {
+    cursor: pointer;
+    border: 0;
+    background: none;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.text-lvl {
+    display: flex;
+}
+
+.hard {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF0000;
+    margin-right: 230px;
+}
+
+.medium {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFD600;
+    margin-right: 211px;
+}
+
+.easy {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #02FF1B;
+}
+
+.buttons {
+    display: flex;
+    margin: 42px 161px 0px 0px
+}
+
+.generate_copy {
+    margin-right: 50px;
+    font-size: 32px;
+    width: 200px;
+    height: 65px;
+    border: 1px solid #000000;
+    border-radius: 43px;
+}
+
+.generate_copy:hover {
+    color: white;
+    background-color: rgb(162, 157, 157);
+}
+
+.generate_copy:active {
+    color: rgb(0, 0, 0);
+}
+
+.send_and_clear {
+    display: flex;
+}
+
+.clear {
+    margin-left: 10px;
+    height: 45px;  
+}
