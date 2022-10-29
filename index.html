@@ -17,21 +17,20 @@
             <h1>Password Generator</h1>
         </div>
         <div class="send_and_clear">
+            <img class="rest" src="svg/rest.svg" value="Refresh Page" onClick="window.location.reload();" alt="rest">
             <input class="send-input" id="inputCopy" value="" type="text" placeholder="Password">
             <img class="clear" src="svg/clear.svg" alt="">
         </div>
 
-        <!-- БЕГУНОК СДЕЛАЮ ПОЗЖЕ -->
-        <!-- <div class="difficulty-lvl">
-            <button class="plus">+</button>
-            <div class="line-lvl"></div>
-            <button class="minus">-</button>
-        </div> -->
+        <div class="slider">
+            <output for="fader" id="volume"><p class="text-outinput">0</p></output>
+            <input class="slider-liner" type="range" id="fader" min="0" max="15" value="0" step="7.5" oninput="outputUpdate(value)">
+        </div>
 
         <div class="text-lvl">
-            <input type="checkbox" id="hard"><p class="hard">HARD</p>
-            <input type="checkbox" id="medium"><p class="medium">MEDIUM</p>
-            <input type="checkbox" id="easy"><p class="easy">EASY</p>
+            <p class="easy active">EASY</p>
+            <p class="medium">MEDIUM</p>
+            <p class="hard">HARD</p>
         </div>
         <div class="buttons">
             <button id="generator" class="generate_copy">Generate</button>
