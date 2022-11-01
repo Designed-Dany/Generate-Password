@@ -211,14 +211,14 @@ output {
     }
 
     .send_and_clear {
-        width: 293px;
+        width: 334px;
         margin-top: 70px;
     }
 
     h1 {
         font-size: 32px;
         line-height: 44px;
-        margin: 21px 0px 114px 0px;
+        margin: 21px 17px 114px 0px;
     }
 
     .easy {
@@ -240,6 +240,10 @@ output {
     }
 
     .buttons {
-        margin: 182px -69px 0px 0px;
+        margin: 108px -29px 0px 0px;
+    }
+
+    .text-lvl {
+        margin: 20px 20px 0px 0px;
     }
 }
