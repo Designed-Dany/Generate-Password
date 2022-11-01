@@ -10,6 +10,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: #464646;
 }
 
@@ -154,4 +155,91 @@ output {
 .clear {
     margin-left: 10px;
     height: 45px;  
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    .container {
+        width: 750px;
+    }
+
+    .send_and_clear {
+        width: 500px;
+    }
+
+    .slider {
+        width: 414px;
+    }
+
+    .slider-liner {
+        width: 400px;
+    }
+
+    .easy {
+        margin-right: 124px;
+    }
+
+    .medium {
+        margin-right: 124px;
+    }
+
+    .buttons {
+        margin: 190px -47px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .container {
+        width: 340px;
+    }
+
+    .slider {
+        width: 310px;
+        margin-bottom: 50px;
+    }
+
+    .slider-liner {
+        width: 299px;
+    }
+
+    .send_and_clear {
+        width: 293px;
+        margin-top: 70px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 44px;
+        margin: 195px 0px 114px 0px;
+    }
+
+    .easy {
+        margin-right: 44px;
+    }
+
+    .medium {
+        margin-right: 44px;
+    }
+
+    .generate_copy {
+        font-size: 20px;
+        width: 138px;
+        height: 41px;
+    }
+
+    .send-input {
+        width: 215px;
+    }
+
+    .buttons {
+        margin: 182px -69px 0px 0px;
+    }
 }
